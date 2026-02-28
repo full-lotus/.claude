@@ -1,0 +1,30 @@
+# Claude Code .gitignore
+# Excludes temporary files, caches, and sensitive data from version control
+
+# Sensitive data
+settings.json
+
+# Temporary and cache directories
+debug/
+cache/
+downloads/
+file-history/
+paste-cache/
+shell-snapshots/
+backups/
+
+# Session and task data
+session-env/
+tasks/
+todos/
+projects/
+plans/
+
+# Conversation history
+history.jsonl
+
+# Plugin cache
+plugins/cache/
+
+# Ignore .git directory itself
+.git/
