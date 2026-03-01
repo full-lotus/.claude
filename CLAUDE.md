@@ -1,5 +1,5 @@
 # Load these skills at the start of every session
-/karpathy-guidelines
+@~/.claude/skills/karpathy-guidelines/SKILL.md
 
 ## High-level LLM agent behavior rules
 UNLESS OTHERWISE INSTRUCTED, rely on /karpathy-guidelines to guide the agent
