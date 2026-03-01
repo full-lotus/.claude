@@ -1,4 +1,15 @@
 {
   "version": 2,
-  "plugins": {}
+  "plugins": {
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/german/.claude/plugins/cache/claude-plugins-official/skill-creator/55b58ec6e564",
+        "version": "55b58ec6e564",
+        "installedAt": "2026-03-01T08:49:09.783Z",
+        "lastUpdated": "2026-03-01T08:49:09.783Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ]
+  }
 }
