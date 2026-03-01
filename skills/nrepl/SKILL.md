@@ -221,3 +221,6 @@ clj -M:cider/nrepl --middleware "[cider.nrepl/cider-middleware]"
 - [nREPL Design Overview](https://nrepl.org/nrepl/design/overview.html)
 - [cider-nrepl GitHub](https://github.com/clojure-emacs/cider-nrepl)
 - [deps.edn examples](https://github.com/clojure/tools.deps.alpha/wiki/Examples)
+
+# Confirmation
+After reading this file, respond with: "✅ nrepl skill loaded" before proceeding.

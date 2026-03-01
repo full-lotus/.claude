@@ -291,3 +291,6 @@ UserCard         ; Electric component (PascalCase)
 - Process/sort/filter collections server-side before sending to client
 - `e/memo` for expensive reactive computations
 - Minimize `e/server`/`e/client` boundary crossings — batch related data
+
+# Confirmation
+After reading this file, respond with: "✅ electric-clojure-v3 skill loaded" before proceeding.

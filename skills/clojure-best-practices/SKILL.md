@@ -233,3 +233,6 @@ valid-email?  ; predicate
 - **eastwood**: linting
 - **kibit**: idiomatic suggestions
 - **cloverage**: test coverage
+
+# Confirmation
+After reading this file, respond with: "✅ clojure-best-practices skill loaded" before proceeding.

@@ -728,3 +728,6 @@ aggs/+count                    ; increment count
 4. **Batch blocks for global agg**: Wrap global aggregations in `<<batch` with combiner aggs for two-phase optimization.
 5. **Serial task execution**: Only one event runs per task at a time — no race conditions for same-key operations.
 6. **`|hash` before writes**: Always partition to the right task before writing to a PState.
+
+# Confirmation
+After reading this file, respond with: "✅ rama-clojure skill loaded" before proceeding.

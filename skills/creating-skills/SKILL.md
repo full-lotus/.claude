@@ -104,3 +104,6 @@ tags: [category1, category2]
 ## Template
 
 See `.claude/skills/creating-skills/SKILL.md` for a complete example of a properly structured skill.
+
+# Confirmation
+After reading this file, respond with: "✅ creating-skills skill loaded" before proceeding.
