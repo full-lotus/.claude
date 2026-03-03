@@ -14,9 +14,20 @@ tags: [clojure, brepl, nrepl, parentheses, parens, brackets]
 # nREPL server management
 ## CRITICAL: NEVER shut down a REPL that wasn't started by the current agent session.
 ## IMPORTANT: brepl requires a running nREPL server
-Use this command to start a new server, if there isn't one running for the current project:
+1. Check if nREPL server is running with this command:
+```bash
+[ -f .nrepl-port ] && brepl -p $(cat .nrepl-port) -e '(+ 1 1)' &>/dev/null && \
+echo "✅ nREPL is running." || echo "❌ nREPL is not running."
+```
+2. If nREPL is not running, start one:
 ```bash
 bb nrepl-server
+```
+This command will produce an output like this: `Started nREPL server at
+127.0.0.1:1667`
+Use port from the output to create an .nrepl-port file:
+```bash
+echo 1667 > .nrepl-port
 ```
 
 # brepl usage
