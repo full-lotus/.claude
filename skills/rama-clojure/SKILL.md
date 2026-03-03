@@ -690,7 +690,7 @@ aggs/+count                    ; increment count
 (aggs/+first *val)             ; first seen
 (aggs/+set-agg *val)           ; build set
 (aggs/+set-remove-agg *val)    ; remove from set
-(aggs/+map-agg *k *v          ; build map
+(aggs/+map-agg *k *v)          ; build map
 (aggs/+vec-agg *val)           ; build vector
 (aggs/+avg *val)               ; average (batch only, no PState)
 (aggs/+top-monotonic [N] $$p *obj :+options {:id-fn f :sort-val-fn f})
