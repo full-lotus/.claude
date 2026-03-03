@@ -14,9 +14,9 @@ tags: [clojure, brepl, nrepl, parentheses, parens, brackets]
 # nREPL server management
 ## CRITICAL: NEVER shut down a REPL that wasn't started by the current agent session.
 ## IMPORTANT: brepl requires a running nREPL server
-Use this command to start
+Use this command to start a new server, if there isn't one running for the current project:
 ```bash
-bb nrepl
+bb nrepl-server
 ```
 
 # brepl usage
