@@ -1,7 +1,7 @@
 ---
 name: brepl
 description: "MANDATORY - Load this skill BEFORE using brepl in any way. Teaches the heredoc pattern for reliable code evaluation."
-tags: [clojure, brepl, nrepl, parentheses, parens, brackets]
+tags: [clojure, repl, brepl, nrepl, parentheses, parens, brackets]
 ---
 
 # brepl - Evaluating Clojure Code
