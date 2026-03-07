@@ -2,7 +2,7 @@
 # Excludes temporary files, caches, and sensitive data from version control
 
 # Sensitive data
-settings.json
+settings.local.json
 
 # Temporary and cache directories
 debug/
