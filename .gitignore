@@ -23,10 +23,10 @@ plans/
 # Conversation history
 history.jsonl
 
-# Plugin cache
+# Plugins
 plugins/cache/
+/plugins/blocklist.json
+plugins/known_marketplaces.json
 
 # Ignore .git directory itself
 .git/
-/plugins/blocklist.json
-plugins/known_marketplaces.json
