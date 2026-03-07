@@ -1,8 +1,7 @@
 # Load these skills at the start of every session
-@~/.claude/skills/karpathy-guidelines/SKILL.md
-
 ## High-level LLM agent behavior rules
-UNLESS OTHERWISE INSTRUCTED, rely on /karpathy-guidelines to guide the agent
+@~/.claude/skills/karpathy-guidelines/SKILL.md
+IMPORTANT: UNLESS OTHERWISE INSTRUCTED, rely on /karpathy-guidelines to guide the agent
 
 # Actions that ALWAYS require user permission
 **Even in 'auto-accept edits' mode, agent MUST ask user permission before:**
